@@ -1,0 +1,48 @@
+@charset "ISO-8859-1";
+/* Add styles for addEmployee.jsp form */
+form {
+  display: flex;
+  flex-wrap: wrap;
+  width: 50%;
+  margin: 0 auto;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+fieldset {
+  border: none;
+  padding: 0;
+}
+
+legend {
+  font-weight: bold;
+  padding-bottom: 1rem;
+}
+
+label {
+  width: 120px;
+  margin-bottom: 5px;
+}
+
+input[type="text"], input[type="date"] {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 1rem;
+}
+
+/* Add hover effect for submit button (optional) */
+input[type="submit"]:hover {
+  background-color: #3e8e41;
+}

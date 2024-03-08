@@ -1,0 +1,60 @@
+@charset "ISO-8859-1";
+/* Basic styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2 {
+  margin: 0;
+  padding: 1rem;
+}
+
+/* Update navigation styles */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: #fff;
+  padding: 0.5rem 1rem;
+}
+
+header nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+header nav img {
+  width: 50px;
+  height: auto;
+  margin-right: 1rem;
+}
+
+header nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+header nav li {
+  margin-left: 1rem;
+}
+/* Main content styling */
+main {
+  padding: 2rem;
+}
+
+.welcome {
+  text-align: center;
+}
+
+.features {
+  margin-top: 2rem;
+}
+
+.features li {
+  margin-bottom: 1rem;
+}
